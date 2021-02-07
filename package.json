@@ -1,0 +1,30 @@
+{
+  "name": "recon",
+  "version": "0.1.0",
+  "main": "functions.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "npm run build && cross-env NODE_ENV=production firebase deploy --only functions,hosting"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.1.4",
+    "@headlessui/react": "^0.2.0",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "autoprefixer": "^10.2.3",
+    "cross-env": "^7.0.3",
+    "firebase": "^8.2.5",
+    "firebase-admin": "^9.4.2",
+    "firebase-functions": "^3.13.1",
+    "next": "10.0.5",
+    "postcss": "^8.2.4",
+    "react": "17.0.1",
+    "react-awesome-reveal": "^3.7.0",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.14.2",
+    "tailwindcss": "^2.0.2"
+  }
+}

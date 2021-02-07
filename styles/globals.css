@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-gradient {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* cool pink to blue gradient */
+/* text-gradient bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-500 */
